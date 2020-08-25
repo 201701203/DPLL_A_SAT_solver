@@ -14,6 +14,7 @@ int check_empty_clause(vector<set<int>> &clauses)
 }
 
 void remove_new_p(vector<set<int>>&clauses, vector<int> &assignment)
+{
     int new_p = assignment.back();
     for(int i=0;i<clauses.size();i++)
     {
